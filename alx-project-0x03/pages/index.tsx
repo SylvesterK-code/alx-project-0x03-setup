@@ -127,15 +127,28 @@
 
 
 
-import Layout from "@/components/layouts/Layout";
+// import Layout from "@/components/layouts/Layout";
+
+// const Home = () => {
+//   return (
+//     <Layout>
+//       <div className="text-center mt-32">
+//         <h1 className="text-4xl font-bold text-gray-800">Welcome to Splash App</h1>
+//       </div>
+//     </Layout>
+//   );
+// };
+
+// export default Home;
+
+
+
 
 const Home = () => {
   return (
-    <Layout>
-      <div className="text-center mt-32">
-        <h1 className="text-4xl font-bold text-gray-800">Welcome to Splash App</h1>
-      </div>
-    </Layout>
+    <div>
+      <h1> Welcome to Splash App </h1>
+    </div>
   );
 };
 
